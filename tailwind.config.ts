@@ -20,7 +20,19 @@ const config: Config = {
         md: "2rem",
       },
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        // Configuring font variables
+        sans: "var(--font-sans)",
+        serif: "var(--font-serif)",
+      },
+      colors: {
+        // Configuring color variables for light and dark mode
+        primary: "var(--color-primary)",
+        background: "var(--color-background)",
+        text: "var(--color-text)",
+      },
+    },
   },
   plugins: [],
 };

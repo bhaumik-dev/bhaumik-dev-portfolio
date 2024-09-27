@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-primary: #1d4ed8; /* Light Mode Primary */
+  --color-background: #ffffff; /* Light Mode Background */
+  --color-text: #111827; /* Light Mode Text */
+}
+
+.dark {
+  --color-primary: #60a5fa; /* Dark Mode Primary */
+  --color-background: #1f2937; /* Dark Mode Background */
+  --color-text: #f9fafb; /* Dark Mode Text */
+}
+
+@layer base {
+  .nav-item {
+    @apply px-4 py-1.5 rounded-full text-white/80 text-sm hover:bg-white/90 hover:text-black transition duration-300 font-medium;
+  }
+}
