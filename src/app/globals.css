@@ -6,16 +6,40 @@
   --color-primary: #1d4ed8; /* Light Mode Primary */
   --color-background: #ffffff; /* Light Mode Background */
   --color-text: #111827; /* Light Mode Text */
+  --color-opposite-background: #1f2937; /* Opposite Background in Light Mode (Dark Mode Background) */
+  --color-opposite-text: #ffffff; /* Opposite Text Color in Light Mode (Dark Mode Background) */
+  --color-text-light: hsl(
+    210,
+    12%,
+    25%,
+    0.7
+  ); /* Light mode text with less opacity*/
 }
 
 .dark {
   --color-primary: #60a5fa; /* Dark Mode Primary */
   --color-background: #1f2937; /* Dark Mode Background */
   --color-text: #f9fafb; /* Dark Mode Text */
+  --color-opposite-background: #ffffff; /* Opposite Background in Dark Mode (Light Mode Background) */
+  --color-opposite-text: #1f2937; /* Opposite Text Color in Light Mode (Light Mode Background) */
+  --color-text-light: hsl(
+    210,
+    20%,
+    95%,
+    0.7
+  ); /* Dark mode text with less opacity*/
 }
 
 @layer base {
   .nav-item {
     @apply px-4 py-1.5 rounded-full text-white/80 text-sm hover:bg-white/90 hover:text-black transition duration-300 font-medium;
+  }
+}
+
+@layer base {
+  /* Apply a transition to background, border, text colors */
+  * {
+    transition: background-color 0.5s ease, color 0.5s ease, opacity 0.5s ease,
+      border-color 0.5s ease;
   }
 }
