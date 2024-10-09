@@ -1,11 +1,13 @@
 import memojiImage from "../assets/images/memoji-computer.png";
 import Image from "next/image";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
+import DarkModeToggle from "@/components/DarkModeToggle.js";
 
 export const HeroSection = () => {
   return (
     <div className="py-28 md:py-40">
       <div className="container lg:text-center sm:text-left md:text-center">
+        <DarkModeToggle />
         <div className="flex flex-col items-center">
           <Image
             src={memojiImage}
