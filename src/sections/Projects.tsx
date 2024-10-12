@@ -4,6 +4,8 @@ import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUprightIcon from "@/assets/icons/arrow-up-right.svg";
+import { SectionHeader } from "@/components/SectionHeader";
+import { Card } from "@/components/Cards";
 
 const portfolioProjects = [
   {
@@ -48,22 +50,17 @@ export const ProjectsSection = () => {
   return (
     <section className="lg:py-20 pb-16 mb-4">
       <div className="container">
-        <div className="flex justify-center">
-          <p className="lg:text-lg uppercase font-semibold tracking-widest bg-gradient-to-r from-violet-500 to-purple-600 text-transparent bg-clip-text text-center">
-            My Work
-          </p>
-        </div>
-        <h2 className="text-[var(--color-text)] font-serif lg:text-4xl md:text-3xl sm:text-3xl font-medium text-center mt-2">
-          Featured Projects
-        </h2>
-        <p className="text-[var(--color-text-light)] text-center mt-4 max-w-md lg:max-w-3xl mx-auto">
-          See how I transformed concepts into engaging digital experiences.
-        </p>
+        <SectionHeader
+          title="Featured Projects"
+          eyebrow="My Work"
+          description="See how I transformed concepts into engaging digital experiences."
+        />
+
         <div className="flex flex-col mt-10 gap-10 md:mt-20">
           {portfolioProjects.map((project) => (
-            <div
+            <Card
               key={project.title}
-              className="bg-[var(--color-opposite-background)] rounded-3xl overflow-hidden relative z-0 after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-[var(--color-opposite-text)] px-8 pt-8 lg:pt-12 lg:px-20 md:pt-12 md:px-10 pointer-events-none"
+              className="px-8 pt-8 pb-0 lg:pt-12 lg:px-20 md:pt-12 md:px-10 pointer-events-none"
             >
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">
@@ -100,7 +97,7 @@ export const ProjectsSection = () => {
                   />
                 </div>
               </div>
-            </div>
+            </Card>
           ))}
         </div>
       </div>
