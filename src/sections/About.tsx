@@ -138,7 +138,7 @@ const achievements = [
 
 export const AboutSection = () => {
   return (
-    <div className="py-20 lg:py-28">
+    <div className="py-20 lg:py-22">
       <div className="container">
         <SectionHeader
           eyebrow="About Me"
