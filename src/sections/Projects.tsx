@@ -60,7 +60,7 @@ export const ProjectsSection = () => {
           {portfolioProjects.map((project) => (
             <Card
               key={project.title}
-              className="px-8 pt-8 pb-0 lg:pt-12 lg:px-20 md:pt-12 md:px-10 pointer-events-none"
+              className="px-8 pt-8 pb-0 lg:pt-12 lg:px-20 md:pt-12 md:px-10 pointer-events-none sticky"
             >
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">

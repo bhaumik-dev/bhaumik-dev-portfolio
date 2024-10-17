@@ -32,6 +32,17 @@ const config: Config = {
         background: "var(--color-background)",
         text: "var(--color-text)",
       },
+      animation: {
+        "ping-large": "ping-large 1s ease-in-out infinite",
+      },
+      keyframes: {
+        "ping-large": {
+          "75%, 100%": {
+            transform: "scale(3)",
+            opacity: "0",
+          },
+        },
+      },
     },
   },
   plugins: [],

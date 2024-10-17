@@ -16,7 +16,9 @@ export const HeroSection = () => {
           />
           {/* Updated background and text colors */}
           <div className="bg-[var(--color-opposite-background)] border border-[var(--color-text)] px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
-            <div className="bg-green-500 size-2.5 rounded-full"></div>
+            <div className="bg-green-500 size-2.5 rounded-full relative">
+              <div className="absolute bg-green-500 inset-0 animate-ping-large rounded-full"></div>
+            </div>
             <div className="text-[var(--color-opposite-text)] text-sm font-medium text-center">
               Open to full-time frontend roles and available for freelance
               projects.
