@@ -1,3 +1,5 @@
+"use client";
+
 import { Card } from "@/components/Cards";
 import { SectionHeader } from "@/components/SectionHeader";
 import StarIcon from "@/assets/icons/star.svg";
@@ -16,6 +18,8 @@ import MongoDBIcon from "@/assets/icons/mongodb.svg";
 import { TechIcon } from "@/components/TechIcon";
 import myImage from "@/assets/images/myimage.jpeg";
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { useRef } from "react";
 
 const toolboxItems = [
   {
@@ -137,6 +141,7 @@ const achievements = [
 ];
 
 export const AboutSection = () => {
+  const constraintRef = useRef(null);
   return (
     <div className="py-20 lg:py-22">
       <div className="container">
@@ -263,21 +268,23 @@ export const AboutSection = () => {
               <p className="text-[var(--color-background)] text-sm mt-3 mb-3 font-medium">
                 Explore my interests and hobbies beyond code.
               </p>
-              <div className="relative flex-1 h-full">
+              <div className="relative flex-1 h-full" ref={constraintRef}>
                 {hobbies.map((hobby) => (
-                  <div
+                  <motion.div
                     key={hobby.title}
                     className="inline-flex items-center gap-2 bg-gradient-to-r from-violet-600 to-purple-700 rounded-full px-1.5 py-1.5 absolute"
                     style={{
                       left: hobby.left,
                       top: hobby.top,
                     }}
+                    drag
+                    dragConstraints={constraintRef}
                   >
                     <span className="text-white text-sm font-medium">
                       {hobby.title}
                     </span>
                     <span>{hobby.emoji}</span>
-                  </div>
+                  </motion.div>
                 ))}
               </div>
             </div>
