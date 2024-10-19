@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Inter, Playfair_Display, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
-const playfair = Playfair_Display({
+// const playfair = Playfair_Display({
+//   subsets: ["latin"],
+//   variable: "--font-serif",
+// });
+const dmsans = DM_Sans({
   subsets: ["latin"],
   variable: "--font-serif",
 });
@@ -24,7 +28,8 @@ export default function RootLayout({
       <body
         className={twMerge(
           inter.variable,
-          playfair.variable,
+          // playfair.variable,
+          dmsans.variable,
           "bg-background text-text antialiased font-sans"
         )}
       >

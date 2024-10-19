@@ -5,8 +5,8 @@ import DarkModeToggle from "@/components/DarkModeToggle.js";
 
 export const HeroSection = () => {
   return (
-    <div className="py-28 md:py-40">
-      <div className="container lg:text-center sm:text-left md:text-center">
+    <div className="py-24 md:py-36">
+      <div className="container lg:text-center sm:text-center md:text-center">
         <DarkModeToggle />
         <div className="flex flex-col items-center">
           <Image
@@ -25,8 +25,8 @@ export const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="lg:max-w-5xl md:max-w-2xl mx-auto">
-          <h1 className="lg:leading-tight mt-6 tracking-wide font-serif lg:text-5xl md:text-3xl sm:text-3xl font-medium text-[var(--color-text)]">
+        <div className="lg:max-w-6xl md:max-w-3xl mx-auto">
+          <h1 className="lg:leading-tight mt-6 tracking-wide font-serif lg:text-5xl md:text-4xl sm:text-4xl font-medium text-[var(--color-text)]">
             Building Coversion-Driven, Responsive, Scalable Websites with
             Frontend Development and No-Code Tools.
           </h1>
@@ -40,15 +40,15 @@ export const HeroSection = () => {
             stunning websites.
           </p>
         </div>
-        <div className="mx-auto flex flex-col md:flex-row justify-center items-center mt-8 gap-3 sm:items-start">
+        <div className="mx-auto flex flex-col md:flex-row justify-center items-center mt-8 gap-3 sm:items-center">
           {/* Buttons Updated to Use Variables */}
-          <button className="inline-flex gap-2 border-spacing-4 items-center border border-[var(--color-text)] px-6 h-12 rounded-xl text-[var(--color-text)] bg-[var(--color-background)] hover:bg-[var(--color-primary)] hover:text-[var(--color-background)]">
-            <span className="font-medium">Explore My Work</span>
-            <ArrowDown className="size-4" />
-          </button>
           <button className="inline-flex gap-2 border-spacing-4 items-center border bg-[var(--color-text)] text-[var(--color-background)] border-[var(--color-text)] px-8 h-12 rounded-xl hover:bg-[var(--color-primary)] hover:text-[var(--color-background)]">
             <span>👋</span>
             <span className="font-medium">Let's Connect</span>
+          </button>
+          <button className="inline-flex gap-2 border-spacing-4 items-center border border-[var(--color-text)] px-6 h-12 rounded-xl text-[var(--color-text)] bg-[var(--color-background)] hover:bg-[var(--color-primary)] hover:text-[var(--color-background)]">
+            <span className="font-medium">Explore My Work</span>
+            <ArrowDown className="size-4" />
           </button>
         </div>
       </div>
