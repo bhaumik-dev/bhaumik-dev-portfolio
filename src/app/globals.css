@@ -49,3 +49,7 @@
     @apply lg:max-w-7xl;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}

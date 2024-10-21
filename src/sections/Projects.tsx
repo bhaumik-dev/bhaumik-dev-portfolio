@@ -106,7 +106,7 @@ export const ProjectsSection = () => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1.6 }}
     >
-      <section className="lg:py-14 pb-16 mb-4">
+      <section id="my-work-section" className="lg:py-14 pb-16 mb-4">
         <div className="container">
           <SectionHeader
             title="Featured Projects"

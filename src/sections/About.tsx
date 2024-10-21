@@ -148,7 +148,7 @@ export const AboutSection = () => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1.2 }}
     >
-      <div className="py-20 lg:py-22">
+      <div id="about-me-section" className="py-20 lg:py-22">
         <div className="container">
           <SectionHeader
             eyebrow="About Me"
