@@ -14,33 +14,33 @@ import { Fragment } from "react";
 
 const testimonials = [
   {
-    name: "Alex Turner",
-    position: "Marketing Manager @ TechStartups",
-    text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+    name: "Parth Gupta",
+    position: "Social Media Marketer & LinkedIn Strategist",
+    text: "Bhaumik's ability to translate ideas into visually stunning elements, coupled with his keen understanding of user experience, resulted in a website that not only met but exceeded my expectations. Throughout the entire process, he remained communicative, responsive, and open to feedback, ensuring that the final product aligned perfectly with my vision.  If you're seeking a designer who combines creativity with a commitment to excellence, Bhaumik is your go-to.",
     avatar: memojiAvatar1,
   },
   {
-    name: "Olivia Green",
-    position: "Head of Design @ GreenLeaf",
-    text: "Working with Alex was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
+    name: "Devarshi Dave",
+    position: "Team Lead and Senior Fullstack Developer",
+    text: "Bhaumik is a rising talent in UI/UX Design for any web or mobile based applications. He has efficiently provided insights and correct recommendations to improve the UI/UX for my projects and it was a success! He is fast learner and fluent in English language. Bhaumik can be a valuable asset to any firm. I am always looking forward to work with him.",
     avatar: memojiAvatar2,
   },
   {
-    name: "Daniel White",
+    name: "Samara Alam",
     position: "CEO @ InnovateCo",
-    text: "Alex's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
+    text: "Bhaumik is an awesome Web Designer and developer! But importantly, he's a great person to work with. He has very clear communication methods and truly understands what you're meaning. Very glad to have benefitted from his perceptiveness, allowing him to put ideas to life in a beautiful and accurate way. He's very efficient as well in terms of timing with his work and I can truly say he gets the job done beyond expectations. Definitely recommend his services tenfold!",
     avatar: memojiAvatar3,
   },
   {
-    name: "Emily Carter",
-    position: "Product Manager @ GlobalTech",
-    text: "Alex is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
+    name: "Kunwar Khurmi",
+    position: "Full Stack Developer and Professor",
+    text: "I was Bhaumik's professor at Conestoga College for the course Advanced Responsive Site Design. He scored 4 out of 4 grade points in my course. Bhaumik consistently submitted his coursework ahead of deadlines, and his work on assignments and projects was exceptional. He is a dedicated student who will excel in any opportunity he is given.",
     avatar: memojiAvatar4,
   },
   {
-    name: "Michael Brown",
-    position: "Director of IT @ MegaCorp",
-    text: "Alex's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
+    name: "Taysseer Samman",
+    position: "Software Developer & Solutions Architect",
+    text: "Bhaumik was a top student in my class, attentive and collaborative. He showed interest, attention to detail, and a great team player. He would fit in any position, because of his personality and wits.",
     avatar: memojiAvatar5,
   },
 ];
@@ -73,7 +73,7 @@ export const TestimonialsSection = () => {
                   <Fragment key={index}>
                     {testimonials.map((testimonial) => (
                       <Card
-                        className="text-[var(--color-opposite-text)] mt-2 max-w-xs md:p-8 md:max-w-md lg:max-w-md hover:-rotate-1 transition duration-300"
+                        className="text-[var(--color-opposite-text)] mt-2 max-w-xs md:p-8 md:max-w-lg lg:max-w-2xl hover:-rotate-1 transition duration-300"
                         key={testimonial.name}
                       >
                         <div className="flex gap-4 items-center">

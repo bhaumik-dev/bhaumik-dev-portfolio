@@ -39,8 +39,14 @@
 @layer base {
   /* Apply a transition to background, border, text colors */
   * {
-    transition: background-color 0.5s ease, color 0.5s ease, opacity 0.5s ease,
-      border-color 0.5s ease;
+    transition: background-color 1s ease, color 1s ease, opacity 1s ease,
+      border-color 1s ease;
+  }
+  body,
+  button,
+  a,
+  input {
+    transition: background-color 1s ease, color 1s ease;
   }
 }
 

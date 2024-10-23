@@ -6,9 +6,8 @@ import DarkModeToggle from "@/components/DarkModeToggle.js";
 
 export const HeroSection = () => {
   return (
-    <div className="py-24 md:py-36">
+    <div className="py-24 md:py-36 sm:py-28">
       <div className="container lg:text-center sm:text-center md:text-center">
-        <DarkModeToggle />
         <div className="flex flex-col items-center">
           <Image
             src={memojiImage}

@@ -7,11 +7,13 @@ import { TestimonialsSection } from "@/sections/Testimonials";
 import { ContactSection } from "@/sections/Contact";
 import { Footer } from "@/sections/Footer";
 import { useEffect } from "react";
+import DarkModeToggle from "@/components/DarkModeToggle";
 
 export default function Home() {
   return (
     <div>
       <Header />
+      <DarkModeToggle />
       <HeroSection />
       <ProjectsSection />
       <TapeSection />
