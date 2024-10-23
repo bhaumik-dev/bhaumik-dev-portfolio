@@ -54,7 +54,7 @@ export const TestimonialsSection = () => {
 
   return (
     <div className="py-16 lg:py-24">
-      <div className="container">
+      <div className="lg:max-w-full md:container sm:container">
         <SectionHeader
           eyebrow="Happy Clients"
           title="Testimonials & Recommendations"
@@ -73,7 +73,7 @@ export const TestimonialsSection = () => {
                   <Fragment key={index}>
                     {testimonials.map((testimonial) => (
                       <Card
-                        className="text-[var(--color-opposite-text)] mt-2 max-w-xs md:p-8 md:max-w-lg lg:max-w-2xl hover:-rotate-1 transition duration-300"
+                        className="text-white mt-2 max-w-xs md:p-8 md:max-w-lg lg:max-w-2xl hover:-rotate-1 transition duration-300"
                         key={testimonial.name}
                       >
                         <div className="flex gap-4 items-center">
@@ -85,15 +85,15 @@ export const TestimonialsSection = () => {
                             />
                           </div>
                           <div>
-                            <div className="font-semibold text-[var(--color-opposite-text)]">
+                            <div className="font-semibold text-white">
                               {testimonial.name}
                             </div>
-                            <div className="text-sm font-light text-[var(--color-opposite-text)]">
+                            <div className="text-sm font-light text-white">
                               {testimonial.position}
                             </div>
                           </div>
                         </div>
-                        <p className="mt-4 md:mt-6 text-sm md:text-base text-[var(--color-opposite-text)]">
+                        <p className="mt-4 md:mt-6 text-sm md:text-base text-white">
                           {testimonial.text}
                         </p>
                       </Card>

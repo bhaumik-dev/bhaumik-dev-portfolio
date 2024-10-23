@@ -3,31 +3,33 @@
 @tailwind utilities;
 
 :root {
-  --color-primary: #1d4ed8; /* Light Mode Primary */
-  --color-background: #ffffff; /* Light Mode Background */
-  --color-text: #111827; /* Light Mode Text */
-  --color-opposite-background: #1f2937; /* Opposite Background in Light Mode (Dark Mode Background) */
-  --color-opposite-text: #ffffff; /* Opposite Text Color in Light Mode (Dark Mode Background) */
+  --color-primary: #6d28d9; /* Light Mode Primary */
+  --color-background: #f7f7f7; /* Light Mode Background */
+  --color-text: #121212; /* Light Mode Text */
+  --color-opposite-background: #121212; /* Opposite Background in Light Mode (Dark Mode Background) */
+  --color-opposite-text: #f7f7f7; /* Opposite Text Color in Light Mode (Dark Mode Background) */
   --color-text-light: hsl(
     210,
     12%,
     25%,
     0.7
   ); /* Light mode text with less opacity*/
+  --color-card-background: #181818; /* background color for cards */
 }
 
 .dark {
-  --color-primary: #60a5fa; /* Dark Mode Primary */
-  --color-background: #1f2937; /* Dark Mode Background */
-  --color-text: #f9fafb; /* Dark Mode Text */
-  --color-opposite-background: #ffffff; /* Opposite Background in Dark Mode (Light Mode Background) */
-  --color-opposite-text: #1f2937; /* Opposite Text Color in Light Mode (Light Mode Background) */
+  --color-primary: #6d28d9; /* Dark Mode Primary */
+  --color-background: #121212; /* Dark Mode Background */
+  --color-text: #f7f7f7; /* Dark Mode Text */
+  --color-opposite-background: #f7f7f7; /* Opposite Background in Dark Mode (Light Mode Background) */
+  --color-opposite-text: #121212; /* Opposite Text Color in Light Mode (Light Mode Background) */
   --color-text-light: hsl(
     210,
     20%,
     95%,
     0.7
   ); /* Dark mode text with less opacity*/
+  --color-card-background: #181818; /* background color for cards */
 }
 
 @layer base {

@@ -157,20 +157,20 @@ export const ProjectsSection = () => {
                         {/* <span>{project.year}</span> */}
                       </div>
 
-                      <h3 className="text-[var(--color-opposite-text)] font-serif text-2xl md:text-3xl mt-2">
+                      <h3 className="text-white font-serif text-2xl md:text-3xl mt-2">
                         {project.title}
                       </h3>
                       <hr className="border-t-2 border-white/5 mt-4 md:mt-5 " />
                       <ul className="flex flex-col gap-2 mt-4 md:mt-5 ">
                         {project.results.map((result) => (
-                          <li className="flex gap-2 text-sm md:text-base text-[var(--color-opposite-text)]">
+                          <li className="flex gap-2 text-sm md:text-base text-white">
                             <CheckCircleIcon className="size-5 md:size-6" />
                             <span>{result.title}</span>
                           </li>
                         ))}
                       </ul>
                       <a href={project.link}>
-                        <button className="mt-6 px-6 bg-[var(--color-background)] text-[var(--color-text)] h-12 w-full md:w-auto rounded-xl font-semibold inline-flex items-center justify-center gap-2">
+                        <button className="mt-6 px-6 bg-white text-black h-12 w-full md:w-auto rounded-xl font-semibold inline-flex items-center justify-center gap-2">
                           <span>Visit Live Site</span>
                           <ArrowUprightIcon className="size-4" />
                         </button>

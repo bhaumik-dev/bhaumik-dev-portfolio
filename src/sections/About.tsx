@@ -160,12 +160,12 @@ export const AboutSection = () => {
             <Card className="md:col-span-2">
               <div className="flex flex-col">
                 <div className="inline-flex items-center gap-2">
-                  <StarIcon className="text-[var(--color-background)] size-9" />
-                  <h3 className="text-[var(--color-background)] text-2xl font-serif font-semibold">
+                  <StarIcon className="text-white size-9" />
+                  <h3 className="text-white text-2xl font-serif font-semibold">
                     Hi, I am Bhaumik...
                   </h3>
                 </div>
-                <p className="text-[var(--color-background)] text-sm mt-3 font-medium">
+                <p className="text-white text-sm mt-3 font-medium">
                   I’m a frontend developer with 2 years of experience,
                   specializing in building responsive and dynamic websites using
                   HTML, CSS, JavaScript, Tailwind CSS, ReactJS, and NextJS. I
@@ -174,7 +174,7 @@ export const AboutSection = () => {
                   and efficiently.
                 </p>
 
-                <p className="text-[var(--color-background)] text-sm mt-3 font-medium">
+                <p className="text-white text-sm mt-3 font-medium">
                   I recently completed my post-graduate studies in Web
                   Development with distinction, and I’m excited to bring my
                   skills to full-time roles or freelance projects. Whether it’s
@@ -192,12 +192,12 @@ export const AboutSection = () => {
             <Card className="mt-2 lg:col-span-3">
               <div>
                 <div className="inline-flex items-center gap-2">
-                  <StarIcon className="text-[var(--color-background)]" />
-                  <h3 className="text-2xl text-[var(--color-background)] font-serif font-semibold">
+                  <StarIcon className="text-white" />
+                  <h3 className="text-2xl text-white font-serif font-semibold">
                     My Toolbox
                   </h3>
                 </div>
-                <p className="text-[var(--color-background)] text-sm mt-3 mb-3 font-medium">
+                <p className="text-white text-sm mt-3 mb-3 font-medium">
                   Technologies and tools I use to craft exceptional digial
                   experiences.
                 </p>
@@ -206,12 +206,10 @@ export const AboutSection = () => {
                 {toolboxItems.map((item) => (
                   <div
                     key={item.title}
-                    className="inline-flex items-center gap-2 py-2 px-3 outline outline-1 outline-[var(--color-opposite-text)] rounded-lg"
+                    className="inline-flex items-center gap-2 py-2 px-3 outline outline-1 outline-white rounded-lg"
                   >
                     <TechIcon component={item.iconType} />
-                    <span className="text-[var(--color-opposite-text)] font-medium">
-                      {item.title}
-                    </span>
+                    <span className="text-white font-medium">{item.title}</span>
                   </div>
                 ))}
               </div>
@@ -222,12 +220,12 @@ export const AboutSection = () => {
             <Card className="mt-2 lg:col-span-2">
               <div>
                 <div className="inline-flex items-center gap-2">
-                  <StarIcon className="text-[var(--color-background)]" />
-                  <h3 className="text-[var(--color-background)] text-2xl font-serif font-semibold">
+                  <StarIcon className="text-white" />
+                  <h3 className="text-white text-2xl font-serif font-semibold">
                     Achievements
                   </h3>
                 </div>
-                <p className="text-[var(--color-background)] text-sm mt-3 mb-3 font-medium">
+                <p className="text-white text-sm mt-3 mb-3 font-medium">
                   Highlights of results I have produced for clients and
                   employers.
                 </p>
@@ -235,12 +233,12 @@ export const AboutSection = () => {
                   {achievements.map((achievement) => (
                     <div
                       key={achievement.title}
-                      className="inline-flex items-center gap-4 py-3 px-3 outline outline-1 outline-[var(--color-opposite-text)] rounded-lg"
+                      className="inline-flex items-center gap-4 py-3 px-3 outline outline-1 outline-white rounded-lg"
                     >
                       <span className="text-green-500">
                         {achievement.emoji}
                       </span>
-                      <span className="text-[var(--color-background)] text-sm font-medium">
+                      <span className="text-white text-sm font-medium">
                         {achievement.title}
                       </span>
                     </div>
@@ -268,12 +266,12 @@ export const AboutSection = () => {
             <Card className="mt-2 h-[300px] p-0 flex flex-col relative lg:col-span-3">
               <div className="px-6 py-6">
                 <div className="inline-flex items-center gap-2">
-                  <StarIcon className="text-[var(--color-background)]" />
-                  <h3 className="text-[var(--color-background)] text-2xl font-serif font-semibold">
+                  <StarIcon className="text-white" />
+                  <h3 className="text-white text-2xl font-serif font-semibold">
                     Beyond the Code
                   </h3>
                 </div>
-                <p className="text-[var(--color-background)] text-sm mt-3 mb-3 font-medium">
+                <p className="text-white text-sm mt-3 mb-3 font-medium">
                   Explore my interests and hobbies beyond code.
                 </p>
                 <div className="relative flex-1 h-full" ref={constraintRef}>

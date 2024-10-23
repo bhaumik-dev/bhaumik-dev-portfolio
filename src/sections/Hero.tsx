@@ -43,7 +43,7 @@ export const HeroSection = () => {
         <div className="mx-auto flex flex-col md:flex-row justify-center items-center mt-8 gap-3 sm:items-center">
           {/* Buttons Updated to Use Variables */}
           <button
-            className="inline-flex gap-2 border-spacing-4 items-center border bg-[var(--color-text)] text-[var(--color-background)] border-[var(--color-text)] px-8 h-12 rounded-xl hover:bg-[var(--color-primary)] hover:text-[var(--color-background)]"
+            className="inline-flex gap-2 border-spacing-4 items-center border bg-[var(--color-text)] text-[var(--color-background)] border-[var(--color-text)] px-8 h-12 rounded-xl hover:bg-[var(--color-primary)] hover:text-white"
             onClick={() =>
               (window.location.href =
                 "https://cal.com/bhaumik-raja-ouzhch/discovery-call-free")
@@ -53,7 +53,7 @@ export const HeroSection = () => {
             <span className="font-medium">Book a Free Discovery Call</span>
           </button>
           <button
-            className="inline-flex gap-2 border-spacing-4 items-center border border-[var(--color-text)] px-6 h-12 rounded-xl text-[var(--color-text)] bg-[var(--color-background)] hover:bg-[var(--color-primary)] hover:text-[var(--color-background)]"
+            className="inline-flex gap-2 border-spacing-4 items-center border border-[var(--color-text)] px-6 h-12 rounded-xl text-[var(--color-text)] bg-[var(--color-background)] hover:bg-[var(--color-primary)] hover:text-white"
             onClick={() => {
               const section = document.getElementById("my-work-section");
               if (section) {
