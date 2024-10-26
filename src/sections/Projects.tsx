@@ -4,6 +4,11 @@ import { useState } from "react";
 import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import luxeRealtyPage from "@/assets/images/luxe-realty-page.png";
+import bhaumikPortfolioPage from "@/assets/images/webflow-portfolio-project.png";
+import hayesValleyPage from "@/assets/images/hayes-walley-webflow-project.png";
+import parthProjectPage from "@/assets/images/parth-gupta-webflow-project.png";
+import teamAppPage from "@/assets/images/team-app-webflow-project.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUprightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -26,16 +31,16 @@ const portfolioProjects1 = [
     image: darkSaasLandingPage,
   },
   {
-    company: "Innovative Co",
+    company: "Capstone Team Project",
     year: "2021",
-    title: "Light Saas Landing Page",
+    title: "Luxe Realty - Market Place",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "MERN Stack Real Estate Market Place" },
+      { title: "OAuth Enabled, Search And Filter Added" },
+      { title: "3.75/4 Grade Achieved" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "https://luxe-realty.onrender.com/",
+    image: luxeRealtyPage,
   },
   {
     company: "Quantum Dynamics",
@@ -54,40 +59,52 @@ const portfolioProjects1 = [
 // Second set of projects (replace with your own data)
 const portfolioProjects2 = [
   {
-    company: "Tech Solutions",
+    company: "Bhaumik",
     year: "2023",
-    title: "E-commerce Platform",
+    title: "Portfolio Project",
     results: [
-      { title: "Increased sales by 25%" },
-      { title: "Improved load times by 40%" },
-      { title: "Enhanced SEO performance" },
+      { title: "Developed in Webflow." },
+      { title: "GSAP used for Animations." },
+      { title: "Custom code added to extend functionality." },
     ],
-    link: "https://example.com/project1",
-    image: darkSaasLandingPage,
+    link: "https://bhaumikraja.webflow.io/",
+    image: bhaumikPortfolioPage,
   },
   {
-    company: "Digital Labs",
+    company: "Haye's Valley Interior Design",
     year: "2022",
-    title: "Corporate Website",
+    title: "Haye's Valley Project",
     results: [
-      { title: "Increased user engagement by 30%" },
-      { title: "Reduced bounce rate by 20%" },
-      { title: "Improved mobile responsiveness" },
+      { title: "Developed in Webflow." },
+      { title: "Extensive use of Webflow's CMS." },
+      { title: "Image and code optimization." },
     ],
-    link: "https://example.com/project2",
-    image: lightSaasLandingPage,
+    link: "https://hayes-valley-bhaumik.webflow.io/",
+    image: hayesValleyPage,
   },
   {
-    company: "Future Innovations",
+    company: "Parth Gupta",
     year: "2023",
-    title: "AI Dashboard",
+    title: "Parth Gupta's Portfolio Project",
     results: [
-      { title: "Improved data accuracy by 35%" },
-      { title: "Streamlined user interface" },
-      { title: "Increased user satisfaction by 20%" },
+      { title: "Decreaed page load speed by 20%." },
+      { title: "12% increase in conversion in first two months." },
+      { title: "Client signed new projects from first month of launch." },
     ],
-    link: "https://example.com/project3",
-    image: aiStartupLandingPage,
+    link: "https://parthgupta.webflow.io/",
+    image: parthProjectPage,
+  },
+  {
+    company: "Team.",
+    year: "2022",
+    title: "Team Collaboration Website",
+    results: [
+      { title: "Built fully on Webflow." },
+      { title: "Native Webflow animations used." },
+      { title: "Blog on website built using Webflow CMS." },
+    ],
+    link: "https://parthgupta.webflow.io/",
+    image: teamAppPage,
   },
 ];
 

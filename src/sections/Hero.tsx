@@ -25,8 +25,8 @@ export const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="lg:max-w-6xl md:max-w-3xl mx-auto">
-          <h1 className="lg:leading-tight mt-6 tracking-wide font-serif lg:text-5xl md:text-4xl sm:text-4xl font-medium text-[var(--color-text)]">
+        <div className="lg:max-w-7xl md:max-w-3xl mx-auto">
+          <h1 className="lg:leading-tight mt-6 tracking-normal font-serif lg:text-6xl md:text-4xl sm:text-4xl font-medium text-[var(--color-text)]">
             Building Coversion-Driven, Responsive, Scalable Websites with
             Frontend Development and No-Code Tools.
           </h1>

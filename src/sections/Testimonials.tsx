@@ -2,11 +2,11 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import memojiAvatar1 from "@/assets/images/memoji-avatar-1.png";
-import memojiAvatar2 from "@/assets/images/memoji-avatar-2.png";
-import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
-import memojiAvatar4 from "@/assets/images/memoji-avatar-4.png";
-import memojiAvatar5 from "@/assets/images/memoji-avatar-5.png";
+import memojiAvatar1 from "@/assets/images/parth_gupta_testimonial_image.png";
+import memojiAvatar2 from "@/assets/images/devarshidave.jpg";
+import memojiAvatar3 from "@/assets/images/samara.jpg";
+import memojiAvatar4 from "@/assets/images/kunwar.jpg";
+import memojiAvatar5 from "@/assets/images/tayseerrehman.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
 import Image from "next/image";
 import { Card } from "@/components/Cards";
@@ -81,7 +81,7 @@ export const TestimonialsSection = () => {
                             <Image
                               src={testimonial.avatar}
                               alt={testimonial.name}
-                              className="max-h-full"
+                              className="max-h-full rounded-full"
                             />
                           </div>
                           <div>
