@@ -161,7 +161,7 @@ export const ProjectsSection = () => {
               (project, projectIndex) => (
                 <Card
                   key={project.title}
-                  className="px-8 pt-8 pb-0 lg:pt-12 lg:px-20 md:pt-12 md:px-10 pointer-events-none sticky"
+                  className="px-8 pt-8 pb-0 lg:pt-12 lg:px-20 md:pt-12 md:px-10 sticky"
                   style={{
                     top: `calc(64px + ${projectIndex * 40}px)`,
                   }}
@@ -186,7 +186,11 @@ export const ProjectsSection = () => {
                           </li>
                         ))}
                       </ul>
-                      <a href={project.link}>
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <button className="mt-6 px-6 bg-white text-black h-12 w-full md:w-auto rounded-xl font-semibold inline-flex items-center justify-center gap-2">
                           <span>Visit Live Site</span>
                           <ArrowUprightIcon className="size-4" />
