@@ -2,6 +2,7 @@
 
 .loaderContainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -17,9 +18,60 @@
 
 .loaderText {
   font-size: 8rem;
-  font-weight: bold;
+  font-weight: normal;
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: "Playfair Display", sans-serif;
+  position: relative;
+}
+
+.marquee,
+.marquee2 {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+}
+
+.marquee {
+  top: 4%;
+}
+
+.marquee2 {
+  bottom: 4%;
+}
+
+.marqueeText {
+  display: flex;
+  font-size: 1.5rem;
+  color: #ffffffe4;
+  gap: 2rem;
+  animation: marquee 30s linear infinite;
+}
+
+.marqueeText2 {
+  display: flex;
+  font-size: 1.5rem;
+  color: #ffffffe4;
+  gap: 2rem;
+  animation: marquee2 30s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee2 {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
 
 .hide {
