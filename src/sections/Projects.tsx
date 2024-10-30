@@ -19,18 +19,6 @@ import { motion } from "framer-motion";
 // First set of projects
 const portfolioProjects1 = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
-    results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
-    ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
-  },
-  {
     company: "Capstone Team Project",
     year: "2021",
     title: "Luxe Realty - Market Place",
@@ -42,21 +30,9 @@ const portfolioProjects1 = [
     link: "https://luxe-realty.onrender.com/",
     image: luxeRealtyPage,
   },
-  {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
-    results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
-    ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
-  },
 ];
 
-// Second set of projects (replace with your own data)
+// Second set of projects
 const portfolioProjects2 = [
   {
     company: "Bhaumik",
