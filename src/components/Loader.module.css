@@ -20,7 +20,7 @@
   font-size: 8rem;
   font-weight: normal;
   color: #fff;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Rethink Sans", sans-serif;
   position: relative;
 }
 
@@ -77,4 +77,32 @@
 .hide {
   opacity: 0;
   pointer-events: none;
+}
+
+/* Mobile code */
+
+@media screen and (max-width: 520px) {
+  .loaderText {
+    font-size: 6rem;
+  }
+
+  .marquee {
+    top: 3%;
+  }
+
+  .marquee2 {
+    bottom: 12%;
+  }
+
+  .marqueeText {
+    font-size: 1.2rem;
+    gap: 1.4rem;
+    animation: marquee 24s linear infinite;
+  }
+
+  .marqueeText2 {
+    font-size: 1.2rem;
+    gap: 1.4rem;
+    animation: marquee2 24s linear infinite;
+  }
 }

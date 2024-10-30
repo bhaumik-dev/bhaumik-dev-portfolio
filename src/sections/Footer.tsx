@@ -10,19 +10,31 @@ export const Footer = () => {
             &copy; All Rights Reserved 2024
           </div>
           <nav className="flex flex-col md:flex-row items-center gap-8 md:gap-4">
-            <a href="#" className="inline-flex items-center gap-1.5">
+            <a
+              href="https://www.linkedin.com/in/bhaumikraja/"
+              className="inline-flex items-center gap-1.5"
+            >
               <span className="text-[var(--color-text)]">LinkedIn</span>
               <ArrowUpRightIcon className="size-4" />
             </a>
-            <a href="#" className="inline-flex items-center gap-1.5">
+            <a
+              href="https://github.com/bhaumik-dev"
+              className="inline-flex items-center gap-1.5"
+            >
               <span className="text-[var(--color-text)]">GitHub</span>
               <ArrowUpRightIcon className="size-4" />
             </a>
-            <a href="#" className="inline-flex items-center gap-1.5">
+            <a
+              href="mailto:webdevbhaumik@gmail.com"
+              className="inline-flex items-center gap-1.5"
+            >
               <span className="text-[var(--color-text)]">Email</span>
               <ArrowUpRightIcon className="size-4" />
             </a>
-            <a href="#" className="inline-flex items-center gap-1.5">
+            <a
+              href="https://www.instagram.com/bhaumik.design"
+              className="inline-flex items-center gap-1.5"
+            >
               <span className="text-[var(--color-text)]">Instagram</span>
               <ArrowUpRightIcon className="size-4" />
             </a>

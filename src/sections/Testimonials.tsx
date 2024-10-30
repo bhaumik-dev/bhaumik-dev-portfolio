@@ -27,7 +27,7 @@ const testimonials = [
   },
   {
     name: "Samara Alam",
-    position: "CEO @ InnovateCo",
+    position: "Founder at Winfluence",
     text: "Bhaumik is an awesome Web Designer and developer! But importantly, he's a great person to work with. He has very clear communication methods and truly understands what you're meaning. Very glad to have benefitted from his perceptiveness, allowing him to put ideas to life in a beautiful and accurate way. He's very efficient as well in terms of timing with his work and I can truly say he gets the job done beyond expectations. Definitely recommend his services tenfold!",
     avatar: memojiAvatar3,
   },
