@@ -15,19 +15,19 @@ export const ContactSection = () => {
             <div className="flex flex-col gap-8 items-center md:flex-row md:gap-12">
               <div>
                 <h2 className="font-serif font-semibold text-2xl text-white md:text-2xl">
-                  Leave Your Website Worries to Me - I'll Take Care of
+                  Leave Your Website Worries to Me - I&apos;ll Take Care of
                   Everything!
                 </h2>
                 <p className="text-sm mt-3 text-white max-w-3xl mx-auto md:text-base md:w-full">
-                  Whether you're looking to build a custom website, enhance an
-                  existing one, or need a quick turnaround using no-code tools,
-                  I'm ready to help. Get in touch, and let's discuss how we can
-                  work together to create something amazing.
+                  Whether you&apos;re looking to build a custom website, enhance
+                  an existing one, or need a quick turnaround using no-code
+                  tools, I&apos;m ready to help. Get in touch, and let&apos;s
+                  discuss how we can work together to create something amazing.
                 </p>
               </div>
               <div>
                 <button
-                  className="text-white bg-gray-900 inline-flex items-center  px-6 h-12 rounded-xl gap-2 mt-6 w-max"
+                  className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 mt-6 w-max"
                   onClick={() =>
                     (window.location.href = "mailto:webdevbhaumik@gmail.com")
                   }
