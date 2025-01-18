@@ -9,7 +9,7 @@ export const Footer = () => {
           <div className="text-[var(--color-text)] text-center">
             &copy; All Rights Reserved 2024
           </div>
-          <nav className="flex flex-col md:flex-row items-center gap-8 md:gap-4">
+          <nav className="flex flex-col md:flex-row items-center gap-12 md:gap-4">
             <a
               href="https://www.linkedin.com/in/bhaumikraja/"
               className="inline-flex items-center gap-1.5"
