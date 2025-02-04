@@ -9,6 +9,7 @@ import bhaumikPortfolioPage from "@/assets/images/webflow-portfolio-project.png"
 import hayesValleyPage from "@/assets/images/hayes-walley-webflow-project.png";
 import parthProjectPage from "@/assets/images/parth-gupta-webflow-project.png";
 import teamAppPage from "@/assets/images/team-app-webflow-project.png";
+import remarkableStudioImage from "@/assets/images/RemarkAbleStudio.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUprightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -34,6 +35,18 @@ const portfolioProjects1 = [
 
 // Second set of projects
 const portfolioProjects2 = [
+  {
+    company: "Remarkable Studio",
+    year: "2025",
+    title: "Remarkable Studio Landing Page",
+    results: [
+      { title: "Developed in Webflow." },
+      { title: "Used Webflow variables and modes" },
+      { title: "Custom code added to extend functionality." },
+    ],
+    link: "https://remarkable-studios.webflow.io/",
+    image: remarkableStudioImage,
+  },
   {
     company: "Bhaumik",
     year: "2023",
