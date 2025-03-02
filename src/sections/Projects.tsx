@@ -10,6 +10,7 @@ import hayesValleyPage from "@/assets/images/hayes-walley-webflow-project.png";
 import parthProjectPage from "@/assets/images/parth-gupta-webflow-project.png";
 import teamAppPage from "@/assets/images/team-app-webflow-project.png";
 import remarkableStudioImage from "@/assets/images/RemarkAbleStudio.png";
+import layersProject from "@/assets/images/LayersProject.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUprightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -18,6 +19,22 @@ import { Card } from "@/components/Cards";
 import { motion } from "framer-motion";
 
 // First set of projects
+
+const layersProjects = [
+  {
+    company: "Layers",
+    year: "2025",
+    title: "Layers - Landing Page",
+    results: [
+      { title: "Frontend: Next, React, Tailwind CSS." },
+      { title: "Framer Motion for animations." },
+      { title: "Fully responsive project with reusable components." },
+    ],
+    link: "https://layers-project-rho.vercel.app/",
+    image: layersProject,
+  },
+];
+
 const portfolioProjects1 = [
   {
     company: "Capstone Team Project",
