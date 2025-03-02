@@ -20,7 +20,7 @@ import { motion } from "framer-motion";
 
 // First set of projects
 
-const layersProjects = [
+const portfolioProjects1 = [
   {
     company: "Layers",
     year: "2025",
@@ -33,9 +33,6 @@ const layersProjects = [
     link: "https://layers-project-rho.vercel.app/",
     image: layersProject,
   },
-];
-
-const portfolioProjects1 = [
   {
     company: "Capstone Team Project",
     year: "2021",
