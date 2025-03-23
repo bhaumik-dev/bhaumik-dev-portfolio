@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import memojiAvatar1 from "@/assets/images/parth_gupta_testimonial_image.png";
 import memojiAvatar2 from "@/assets/images/devarshidave.jpg";
 import memojiAvatar3 from "@/assets/images/samara.jpg";
-import memojiAvatar4 from "@/assets/images/kunwar.jpg";
+import memojiAvatar4 from "@/assets/images/genericprofilepic.jpg";
 import memojiAvatar5 from "@/assets/images/tayseerrehman.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
 import Image from "next/image";
